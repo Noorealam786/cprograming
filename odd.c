@@ -18,7 +18,9 @@ int main()
             sum+=i;
         }
     }
-    printf("the sum, of all odd number between %d and %d\n",start,end,sum);
+    printf("the sum, of all odd number between %d 
+        and %d\n",start,end,sum);
 
     return 0;
+
 }
