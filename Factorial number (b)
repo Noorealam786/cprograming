@@ -1,0 +1,22 @@
+//Name: Noorealam
+//branch:Civil FE/B
+//UIN:2510006
+//Rollno:06
+#include <stdio.h>
+
+int factorial(int num)
+{ if (num==0 || num == 1)
+{
+return 1;
+}
+else
+{
+return num* factorial (num 1);
+}
+}
+int main()
+{
+printf("Factorial of 5 is %d\n", factorial(5));
+
+return 0;
+}
